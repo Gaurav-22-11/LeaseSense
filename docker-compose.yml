@@ -1,0 +1,13 @@
+services:
+  leasesense:
+    build: .
+    ports:
+      - "8501:8501"
+    environment:
+      LLM_BACKEND: template
+      ALLOW_MODEL_DOWNLOAD: "false"
+      QDRANT_PATH: /app/data/qdrant
+      UPLOAD_DIR: /app/data/uploads
+    volumes:
+      - ./data:/app/data
+
