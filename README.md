@@ -4,7 +4,7 @@ LeaseSense is a local-first AI lease analysis project for renters. It parses lea
 
 > LeaseSense is not legal advice. It is an educational tool for reviewing lease language and identifying issues to verify with a landlord, tenant organization, or qualified attorney.
 
-## Why This Project Is Portfolio-Grade
+## Features and specs
 
 LeaseSense is structured to show applied AI engineering skills beyond a basic RAG demo:
 
